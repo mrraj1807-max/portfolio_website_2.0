@@ -47,6 +47,10 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
+    |-- about/
+    |-- awards/
+    |-- contact/
+    |-- experience/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
