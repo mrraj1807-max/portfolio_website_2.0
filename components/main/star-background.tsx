@@ -6,15 +6,30 @@ import {
   type PointsInstancesProps,
 } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
-import * as random from "maath/random";
 import { useState, useRef, Suspense } from "react";
 import type { Points as PointsType } from "three";
 
 export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 }),
-  );
+  const [sphere] = useState(() => {
+    const count = 5000;
+    const positions = new Float32Array(count * 3);
+    const radius = 1.2;
+    for (let i = 0; i < count; i++) {
+      const r = radius * Math.cbrt(Math.random());
+      const theta = Math.random() * 2 * Math.PI;
+      const phi = Math.acos(2 * Math.random() - 1);
+
+      const x = r * Math.sin(phi) * Math.cos(theta);
+      const y = r * Math.sin(phi) * Math.sin(theta);
+      const z = r * Math.cos(phi);
+
+      positions[i * 3] = isNaN(x) ? 0 : x;
+      positions[i * 3 + 1] = isNaN(y) ? 0 : y;
+      positions[i * 3 + 2] = isNaN(z) ? 0 : z;
+    }
+    return positions;
+  });
 
   useFrame((_state, delta) => {
     if (ref.current) {
@@ -28,7 +43,7 @@ export const StarBackground = (props: PointsInstancesProps) => {
       <Points
         ref={ref}
         stride={3}
-        positions={new Float32Array(sphere)}
+        positions={sphere}
         frustumCulled
         {...props}
       >

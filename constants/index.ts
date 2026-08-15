@@ -1,344 +1,242 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Power BI",
+    image: "powerbi.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Python",
+    image: "python.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Tableau",
+    image: "tableau.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "MySQL",
+    image: "mysql.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "Excel",
+    image: "excel.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
+    skill_name: "Microsoft Fabric",
+    image: "fabric.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "TypeScript",
-    image: "ts.png",
+    skill_name: "AWS",
+    image: "aws.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Microsoft Azure",
+    image: "azure.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Framer Motion",
-    image: "framer.png",
+    skill_name: "n8n",
+    image: "n8n.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Stripe",
-    image: "stripe.png",
+    skill_name: "make.com",
+    image: "make.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Power Automate",
+    image: "powerautomate.jpg",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/amitofficial1807/",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/mrraj1807-max",
   },
 ] as const;
 
+// Data Visualization & Dashboards
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Power BI",
+    image: "powerbi.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Tableau",
+    image: "tableau.jpg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Excel",
+    image: "excel.jpg",
     width: 80,
     height: 80,
   },
 ] as const;
 
+// Programming & Databases
 export const BACKEND_SKILL = [
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Python",
+    image: "python.jpg",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
   },
   {
     skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
+    image: "mysql.jpg",
     width: 80,
     height: 80,
   },
 ] as const;
 
+// Cloud Platforms
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
+    skill_name: "AWS",
+    image: "aws.jpg",
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    skill_name: "Microsoft Azure",
+    image: "azure.jpg",
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "Microsoft Fabric",
+    image: "fabric.jpg",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
+// Process Automation
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "n8n",
+    image: "n8n.jpg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "make.com",
+    image: "make.jpg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Power Automate",
+    image: "powerautomate.jpg",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Business Insights 360",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "End-to-end Power BI dashboard spanning Finance, Sales, Marketing, Supply Chain & Executive views for a hardware company. Integrated data from multiple sources, built complex DAX measures, and surfaced actionable KPIs across 5 business functions.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "#",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Telecom Customer Churn Analysis",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Analyzed customer churn patterns in a telecom dataset, identifying key drivers of attrition. Built interactive Tableau dashboards to visualize churn rates by demographics, contract types, and service usage patterns.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "#",
   },
   {
-    title: "Space Themed Website",
+    title: "Supply Chain Performance Dashboard",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Designed a supply chain analytics dashboard tracking inventory levels, delivery performance, and forecast accuracy. Enabled stakeholders to monitor KPIs in real-time with Power BI and SQL integration.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "#",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Connect",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/amitofficial1807/",
       },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://github.com/mrraj1807-max",
       },
     ],
   },
   {
-    title: "Social Media",
+    title: "Contact",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        name: "mr.raj.1807@gmail.com",
+        icon: FaEnvelope,
+        link: "mailto:mr.raj.1807@gmail.com",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        name: "+91 9211411806",
+        icon: FaPhone,
+        link: "tel:+919211411806",
       },
     ],
   },
   {
-    title: "About",
+    title: "Quick Links",
     data: [
       {
-        name: "Become Sponsor",
+        name: "About Me",
         icon: null,
-        link: "https://youtube.com",
+        link: "/about",
       },
       {
-        name: "Learning about me",
+        name: "Experience",
         icon: null,
-        link: "https://example.com",
+        link: "/experience",
       },
       {
-        name: "Contact Me",
+        name: "Contact",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "/contact",
       },
     ],
   },
@@ -346,19 +244,77 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
-    link: "#about-me",
+    title: "About Me",
+    link: "/about",
   },
   {
     title: "Skills",
-    link: "#skills",
+    link: "/#skills",
+  },
+  {
+    title: "Experience",
+    link: "/#experience",
   },
   {
     title: "Projects",
-    link: "#projects",
+    link: "/#projects",
+  },
+  {
+    title: "Awards",
+    link: "/awards",
+  },
+  {
+    title: "Contact",
+    link: "/contact",
   },
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/mrraj1807-max",
 };
+
+export const CERTIFICATES = [
+  {
+    title: "Python for Data Analytics",
+    issuer: "Electronics & ICT Academy, IIT Roorkee",
+    date: "June 2026",
+    image: "/certificates/iit-roorkee-python.jpg",
+    description: "20-Hour Self-Paced Course on Python for Data Analytics",
+  },
+  {
+    title: "Data Analytics Essentials",
+    issuer: "Cisco Networking Academy",
+    date: "August 2026",
+    image: "/certificates/cisco-data-analytics.jpg",
+    badge: "/certificates/cisco-badge.png",
+    description:
+      "Comprehensive Data Analytics Essentials certification with verified badge",
+  },
+] as const;
+
+export const EXPERIENCES = [
+  {
+    title: "Data Analyst Intern",
+    company: "IBM",
+    period: "2026 — Present",
+    description:
+      "Working as a Data Analyst Intern at IBM, applying data analysis and business intelligence skills to real-world enterprise projects. Leveraging Python, SQL, and Power BI for data-driven decision making.",
+    current: true,
+  },
+  {
+    title: "Virtual Data Analyst Intern",
+    company: "AtliQ Technologies",
+    period: "2025 — 2026",
+    description:
+      "Worked through real business case studies across telecom, supply chain, retail, and finance. Built interactive Power BI dashboards for multi-functional analysis. Applied Python and SQL for data cleaning, transformation, and analysis.",
+    current: false,
+  },
+  {
+    title: "Business Analytics & Consulting",
+    company: "upGrad × PwC India",
+    period: "2025",
+    description:
+      "Completed Professional Certificate in Business Analytics & Consulting. Gained hands-on experience with business case frameworks, KPI development, data storytelling, and stakeholder communication.",
+    current: false,
+  },
+] as const;
