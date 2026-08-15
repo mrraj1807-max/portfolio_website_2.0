@@ -231,7 +231,12 @@ export const FOOTER_DATA = [
       {
         name: "Experience",
         icon: null,
-        link: "/experience",
+        link: "/#experience",
+      },
+      {
+        name: "Awards",
+        icon: null,
+        link: "/#awards",
       },
       {
         name: "Contact",
@@ -261,7 +266,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Awards",
-    link: "/awards",
+    link: "/#awards",
   },
   {
     title: "Contact",
