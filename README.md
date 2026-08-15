@@ -1,187 +1,452 @@
-<a name="readme-top"></a>
+<div align="center">
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+<!-- ========================================================= -->
+<!--                    PREMIUM HERO BANNER                    -->
+<!-- ========================================================= -->
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
-
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
-
-<!-- Table of Contents -->
-<details>
-
-<summary>
-
-# :notebook_with_decorative_cover: Table of Contents
-
-</summary>
-
-- [Folder Structure](#bangbang-folder-structure)
-- [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
-- [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
-- [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
-
-</details>
-
-## :bangbang: Folder Structure
-
-Here is the folder structure of this app.
-
-<!--- FOLDER_STRUCTURE_START --->
-```bash
-space-portfolio/
-  |- app/
-    |-- about/
-    |-- awards/
-    |-- contact/
-    |-- experience/
-    |-- apple-icon.png
-    |-- favicon.ico
-    |-- globals.css
-    |-- icon1.png
-    |-- icon2.png
-    |-- layout.tsx
-    |-- page.tsx
-  |- components/
-    |-- main/
-    |-- sub/
-  |- config/
-    |-- index.ts
-  |- constants/
-    |-- index.ts
-  |- lib/
-    |-- motion.ts
-    |-- utils.ts
-  |- public/
-  |- .eslintrc.json
-  |- .gitignore
-  |- eslint.config.mjs
-  |- netlify.toml
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.ts
-  |- tsconfig.json
-```
-<!--- FOLDER_STRUCTURE_END --->
-
-<br />
-
-## :toolbox: Getting Started
-
-1. Make sure **Git** and **NodeJS** is installed.
-
-2. Clone this repository to your local computer.
-
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
-
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
-
-## :camera: Screenshots:
-
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
-
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
-
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
-
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
-
-## :gear: Tech Stack
-
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
-
-## :wrench: Stats
-
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
-
-## :raised_hands: Contribute
-
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
-
-## :gem: Acknowledgements
-
-Useful resources and dependencies that are used in Space Portfolio.
-
-<!--- DEPENDENCIES_START --->
-- [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.2.0
-- [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.8
-- [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.7.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^26
-- [@types/react](https://www.npmjs.com/package/@types/react): 19.2.18
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.4
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.4
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [eslint](https://www.npmjs.com/package/eslint): ^10.8.1
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.3.0
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.0.0
-- [next](https://www.npmjs.com/package/next): 16.2.12
-- [postcss](https://www.npmjs.com/package/postcss): ^8
-- [react](https://www.npmjs.com/package/react): 19.2.8
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
-- [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
-- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^11.0.0
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.6.0
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
-- [three](https://www.npmjs.com/package/three): ^0.185.1
-- [typescript](https://www.npmjs.com/package/typescript): ^6
-
-<!--- DEPENDENCIES_END --->
-
-## :coffee: Buy Me a Coffee
-
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
-
-## :rocket: Follow Me
-
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fx.com%2F_sanidhyy)](https://x.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fspace-portfolio "Tweet")
-
-## :books: Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## :page_with_curl: Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=260&color=0000FF&text=Amit%20Dwivedi&fontSize=58&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=DATA%20ANALYST%20%7C%20BUSINESS%20ANALYST%20%7C%20BUSINESS%20INTELLIGENCE&descAlignY=58&descSize=17&descColor=FFFFFF"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://capsule-render.vercel.app/api?type=waving&height=260&color=0000FF&text=Amit%20Dwivedi&fontSize=58&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=DATA%20ANALYST%20%7C%20BUSINESS%20ANALYST%20%7C%20BUSINESS%20INTELLIGENCE&descAlignY=58&descSize=17&descColor=FFFFFF"
+  />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0000FF&text=Amit%20Dwivedi&fontSize=58&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=DATA%20ANALYST%20%7C%20BUSINESS%20ANALYST%20%7C%20BUSINESS%20INTELLIGENCE&descAlignY=58&descSize=17&descColor=FFFFFF"
+    width="100%"
+    alt="Amit Dwivedi Premium GitHub Banner"
+  />
 </picture>
+
+<br>
+
+# Hey there, I'm Amit Dwivedi 👋
+
+<a href="https://github.com/mrraj1807-max">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=0000FF&center=true&vCenter=true&width=800&lines=Data+Analyst+%7C+Business+Analyst;Turning+Raw+Data+Into+Decision-Ready+Insights;Power+BI+%7C+SQL+%7C+Python+%7C+Tableau;Dashboard+Design+%7C+KPI+Analytics+%7C+Data+Storytelling;Process+Automation+%7C+AI+%7C+Business+Intelligence"
+    alt="Typing animation"
+  />
 </a>
 
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
+
+<!-- PROFILE METRICS -->
+
+<a href="https://github.com/mrraj1807-max?tab=followers">
+  <img src="https://img.shields.io/github/followers/mrraj1807-max?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&labelColor=000000&color=0000FF" alt="GitHub Followers"/>
+</a>
+&nbsp;
+<a href="https://github.com/mrraj1807-max?tab=repositories">
+  <img src="https://img.shields.io/github/stars/mrraj1807-max?style=for-the-badge&logo=github&logoColor=white&label=STARS&labelColor=000000&color=0000FF" alt="GitHub Stars"/>
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=mrraj1807-max&style=for-the-badge&label=PROFILE+VIEWS&color=0000FF" alt="Profile Views"/>
+
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/Delhi%2C%20India-0000FF?style=for-the-badge&logo=googlemaps&logoColor=white"
+  alt="Delhi India"
+/>
+&nbsp;
+<img
+  src="https://img.shields.io/badge/Open%20to%20Data%20%26%20Business%20Analytics-0000FF?style=for-the-badge&logo=chartdotjs&logoColor=white"
+  alt="Open to Analytics"
+/>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🧠 About Me
+
+<table>
+<tr>
+<td width="65%" valign="middle">
+
+I'm **Amit Dwivedi**, an entry-level **Data Analyst** focused on turning raw data into clear, actionable and decision-ready business insights.
+
+My analytics journey is built around **Power BI, SQL, Python, Tableau and Excel**, complemented by hands-on business-case projects across **telecom, supply chain, retail and finance**.
+
+I also bring practical experience from accounting, where I've worked with financial reporting, reconciliation, expenses, sales and inventory data.
+
+### What I Do
+
+- 📊 Build interactive **Power BI & Tableau dashboards**
+- 🧮 Analyze business data using **SQL & Python**
+- 🎯 Track **KPIs, trends and business performance**
+- 🧹 Perform **data cleaning, validation & transformation**
+- ⚡ Automate recurring workflows with **N8N & Power Automate**
+- ☁️ Explore **AWS, Azure & Microsoft Fabric**
+- 📖 Transform complex datasets into compelling **data stories**
+- 🤝 Translate analytical findings into practical business recommendations
+
+<br>
+
+**My goal:**  
+> Build analytics solutions that help businesses understand what is happening, why it is happening, and what they should do next.
+
+</td>
+
+<td width="35%" align="center">
+
+<img
+  src="https://capsule-render.vercel.app/api?type=rounded&height=250&color=000000&text=DATA&fontSize=42&fontColor=0000FF&animation=fadeIn"
+  width="100%"
+  alt="Data Analytics"
+/>
+
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/Power%20BI-0000FF?style=for-the-badge&logo=powerbi&logoColor=white"
+  alt="Power BI"
+/>
+
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/SQL-0000FF?style=for-the-badge&logo=mysql&logoColor=white"
+  alt="SQL"
+/>
+
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/Python-0000FF?style=for-the-badge&logo=python&logoColor=white"
+  alt="Python"
+/>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🛠️ Tech Stack
+
+### 📊 Analytics & Business Intelligence
+
+<img src="https://skillicons.dev/icons?i=python,mysql,jupyter&theme=dark" alt="Python MySQL Jupyter"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Power%20BI-0000FF?style=for-the-badge&logo=powerbi&logoColor=white" alt="Power BI"/>
+<img src="https://img.shields.io/badge/Tableau-0000FF?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+<img src="https://img.shields.io/badge/Excel-0000FF?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel"/>
+<img src="https://img.shields.io/badge/Microsoft%20Fabric-0000FF?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Fabric"/>
+<img src="https://img.shields.io/badge/DAX-0000FF?style=for-the-badge&logo=powerbi&logoColor=white" alt="DAX"/>
+
+<br><br>
+
+### ⚙️ Automation & Cloud
+
+<img src="https://img.shields.io/badge/N8N-0000FF?style=for-the-badge&logo=n8n&logoColor=white" alt="N8N"/>
+<img src="https://img.shields.io/badge/Make.com-0000FF?style=for-the-badge&logo=make&logoColor=white" alt="Make"/>
+<img src="https://img.shields.io/badge/Power%20Automate-0000FF?style=for-the-badge&logo=powerautomate&logoColor=white" alt="Power Automate"/>
+<img src="https://skillicons.dev/icons?i=aws,azure,git,github,vscode" alt="AWS Azure Git GitHub VS Code"/>
+
+<br><br>
+
+### 🤖 AI & Modern Analytics
+
+<img src="https://img.shields.io/badge/Prompt%20Engineering-0000FF?style=for-the-badge&logo=openai&logoColor=white" alt="Prompt Engineering"/>
+<img src="https://img.shields.io/badge/Business%20Intelligence-0000FF?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Business Intelligence"/>
+<img src="https://img.shields.io/badge/Data%20Storytelling-0000FF?style=for-the-badge&logo=datadog&logoColor=white" alt="Data Storytelling"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 Telecom 5G Impact Analysis
+
+**Power BI • Excel**
+
+Business dashboard evaluating the impact of a 5G launch using:
+
+- Revenue
+- ARPU
+- Active users
+- Market share
+- Plan-level performance
+
+**Outcome:** Identified emerging risk areas and supported a reported **30% market-share recovery within three months**.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🚚 Supply Chain Performance
+
+**Power BI • SQL • Excel**
+
+Operational dashboard tracking:
+
+- On-Time Delivery
+- In-Full Delivery
+- OTIF
+- Six months of operational data
+
+**Outcome:** Findings supported a reported **20% reduction in planned expansion investment**.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💰 Finance & Top-N Analysis
+
+**Python • Pandas • NumPy**
+
+Cleaned and analyzed financial transaction data to identify high-performing accounts and products by revenue.
+
+**Focus:** High-value segment prioritization and business insight generation.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🏢 Business Insights 360
+
+**Power BI • SQL • Excel • DAX Studio**
+
+Combined sales data from Excel/CSV and SQL into a unified financial and operational view.
+
+**Outcome:** Improved report performance by **5%** and reduced data-related costs by a reported **20%**.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ Support Ticket ETL Pipeline
+
+**AWS**
+
+Built an ETL workflow to extract, clean and load support-ticket data from multiple sources.
+
+**Focus:** Automating recurring data-processing and reducing manual reporting effort.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📈 Product Strategy Insights
+
+**Tableau**
+
+Analyzed customer and product data for a banking case study.
+
+**Focus:** Customer segmentation, trend analysis and product-strategy recommendations.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 GitHub Analytics
+
+<br>
+
+<img
+  src="https://github-readme-streak-stats.herokuapp.com/?user=mrraj1807-max&theme=dark&background=000000&border=0000FF&stroke=0000FF&ring=0000FF&fire=0000FF&currStreakLabel=0000FF&sideLabels=FFFFFF&dates=FFFFFF"
+  width="72%"
+  alt="GitHub Streak"
+/>
+
+<br><br>
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=mrraj1807-max&bg_color=000000&color=FFFFFF&line=0000FF&point=0000FF&area=true&area_color=0000FF&hide_border=true&custom_title=Amit%20Dwivedi%20-%20GitHub%20Activity"
+  width="95%"
+  alt="GitHub Activity Graph"
+/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🐍 Contribution Snake
+
+<!-- ========================================================= -->
+<!-- GitHub Action: .github/workflows/snake.yml                 -->
+<!--                                                             -->
+<!-- name: Generate Contribution Snake                          -->
+<!--                                                             -->
+<!-- on:                                                        -->
+<!--   schedule:                                                -->
+<!--     - cron: "0 0 * * *"                                    -->
+<!--   workflow_dispatch:                                       -->
+<!--                                                             -->
+<!-- jobs:                                                      -->
+<!--   build:                                                    -->
+<!--     runs-on: ubuntu-latest                                  -->
+<!--     steps:                                                  -->
+<!--       - uses: Platane/snk@v3                                -->
+<!--         with:                                               -->
+<!--           github_user_name: ${{ github.repository_owner }}   -->
+<!--           outputs:                                          -->
+<!--             dist/github-contribution-grid-snake.svg         -->
+<!--             dist/github-contribution-grid-snake-dark.svg    -->
+<!--             ?palette=github-dark-blue                       -->
+<!--                                                             -->
+<!--       - uses: crazy-max/ghaction-github-pages@v4            -->
+<!--         with:                                               -->
+<!--           build_dir: dist                                   -->
+<!--         env:                                                -->
+<!--           GH_PAT: ${{ secrets.GITHUB_TOKEN }}               -->
+<!-- ========================================================= -->
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/mrraj1807-max/mrraj1807-max/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/mrraj1807-max/mrraj1807-max/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/mrraj1807-max/mrraj1807-max/output/github-contribution-grid-snake.svg"
+    width="90%"
+    alt="GitHub Contribution Snake"
+  />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 What I'm Building Toward
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 📊
+**Analytics**
+
+Decision-ready insights from complex datasets.
+
+</td>
+
+<td align="center" width="25%">
+
+### ⚡
+**Automation**
+
+Smarter workflows with less repetitive work.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🤖
+**AI**
+
+Practical AI & prompt engineering for productivity.
+
+</td>
+
+<td align="center" width="25%">
+
+### 💼
+**Business**
+
+Connecting analytics with business strategy.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🤝 Let's Connect
+
+<a href="https://www.linkedin.com/in/amitofficial1807/">
+  <img src="https://img.shields.io/badge/LinkedIn-0000FF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://x.com/amitofficial1807">
+  <img src="https://img.shields.io/badge/X-0000FF?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+</a>
+&nbsp;
+<a href="https://www.instagram.com/amitofficial1807/">
+  <img src="https://img.shields.io/badge/Instagram-0000FF?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+
+<br><br>
+
+<a href="https://github.com/mrraj1807-max">
+  <img src="https://img.shields.io/badge/GitHub-0000FF?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="mailto:mr.raj.1807@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0000FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+<br><br>
+
+### 💬 Open to conversations about
+
+`Data Analytics` &nbsp;•&nbsp; `Business Intelligence` &nbsp;•&nbsp; `Power BI` &nbsp;•&nbsp; `SQL` &nbsp;•&nbsp; `Python` &nbsp;•&nbsp; `Automation` &nbsp;•&nbsp; `AI`
+
+</div>
+
+---
+
+<div align="center">
+
+<br>
+
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&height=160&section=footer&color=0000FF&animation=fadeIn"
+  width="100%"
+  alt="Amit Dwivedi Footer"
+/>
+
+### <img src="https://img.shields.io/badge/Thanks%20for%20visiting%20my%20profile!-0000FF?style=for-the-badge" alt="Thanks for visiting"/>
+
+<br>
+
+**⭐ If you find my projects useful, consider giving them a star!**
+
+<br>
+
+`Turning Data Into Insights • Insights Into Decisions • Decisions Into Impact`
+
+</div>
