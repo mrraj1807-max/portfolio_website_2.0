@@ -172,6 +172,32 @@ export const PROJECTS = [
       "End-to-end Sales & Finance Analytics for AtliQ Hardware using Microsoft Excel. Built with Power Query (ETL), Pivot Tables, DAX measures, and conditional formatting across 23 global markets. Covers Customer Performance, P&L by Market, Gross Margin trends, and FY2021 Target vs. Actual across 189 customers & 800K+ transactions.",
     image: "/projects/project-4.jpg",
     link: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ",
+    documents: [
+      {
+        label: "🌐 Live Interactive Dashboard",
+        url: "https://mrraj1807-max.github.io/sales_-_finance_analysis_of-_AtliQ/",
+      },
+      {
+        label: "📊 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ",
+      },
+      {
+        label: "📄 Customer Performance (PDF)",
+        url: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ/blob/main/reports/AtliQ_Customer_Sales_Analysis.pdf",
+      },
+      {
+        label: "📄 Target vs Performance (PDF)",
+        url: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ/blob/main/reports/AtliQ_Target_Report_21.pdf",
+      },
+      {
+        label: "📥 Excel Analytics Workbench (.xlsx)",
+        url: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ/raw/main/excel/AtliQ_Hardware_Sales_Finance_Analysis.xlsx",
+      },
+      {
+        label: "📥 P&L Statement Model (.xlsx)",
+        url: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ/raw/main/excel/AtliQ_Hardware_P&L_Statement.xlsx",
+      },
+    ],
   },
   {
     title: "Business Insights 360",
