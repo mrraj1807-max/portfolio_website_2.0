@@ -167,6 +167,13 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
+    title: "AtliQ Hardware — Sales & Finance Analysis",
+    description:
+      "End-to-end Sales & Finance Analytics for AtliQ Hardware using Microsoft Excel. Built with Power Query (ETL), Pivot Tables, DAX measures, and conditional formatting across 23 global markets. Covers Customer Performance, P&L by Market, Gross Margin trends, and FY2021 Target vs. Actual across 189 customers & 800K+ transactions.",
+    image: "/projects/project-4.jpg",
+    link: "https://github.com/mrraj1807-max/sales_-_finance_analysis_of-_AtliQ",
+  },
+  {
     title: "Business Insights 360",
     description:
       "End-to-end Power BI dashboard spanning Finance, Sales, Marketing, Supply Chain & Executive views for a hardware company. Integrated data from multiple sources, built complex DAX measures, and surfaced actionable KPIs across 5 business functions.",
