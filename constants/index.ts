@@ -200,11 +200,37 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Business Insights 360",
+    title: "Business Insights 360 — AtliQ Hardware",
     description:
-      "End-to-end Power BI dashboard spanning Finance, Sales, Marketing, Supply Chain & Executive views for a hardware company. Integrated data from multiple sources, built complex DAX measures, and surfaced actionable KPIs across 5 business functions.",
-    image: "/projects/project-1.png",
-    link: "#",
+      "Enterprise Power BI dashboard suite providing 360° analytics across Finance, Sales, Marketing, Supply Chain, and Executive functions. Features 50+ DAX measures, Star Schema data modeling (MySQL gdb041 & gdb056), forecast accuracy tracking, and custom dark UI design system.",
+    image: "/projects/business-insight-360.png",
+    link: "https://github.com/mrraj1807-max/business_insight_360",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/business_insight_360",
+      },
+      {
+        label: "🖼️ Dashboard & UI Assets",
+        url: "https://github.com/mrraj1807-max/business_insight_360/tree/main/assets",
+      },
+      {
+        label: "🎨 Power BI Dark Theme (.json)",
+        url: "https://github.com/mrraj1807-max/business_insight_360/blob/main/BusinessInsight360_Theme.json",
+      },
+      {
+        label: "📐 Design Guide & Specs",
+        url: "https://github.com/mrraj1807-max/business_insight_360/blob/main/DESIGN_GUIDE.md",
+      },
+      {
+        label: "📥 Power BI Model (.pbix)",
+        url: "https://github.com/mrraj1807-max/business_insight_360/raw/main/Business_Insight__360.pbix",
+      },
+      {
+        label: "📖 DAX Measures & P&L Pipeline",
+        url: "https://github.com/mrraj1807-max/business_insight_360#readme",
+      },
+    ],
   },
   {
     title: "Telecom Customer Churn Analysis",
