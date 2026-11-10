@@ -233,18 +233,125 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Telecom Customer Churn Analysis",
+    title: "Elizium Hotels — Revenue & Booking Analytics",
     description:
-      "Analyzed customer churn patterns in a telecom dataset, identifying key drivers of attrition. Built interactive Tableau dashboards to visualize churn rates by demographics, contract types, and service usage patterns.",
-    image: "/projects/project-2.png",
-    link: "#",
+      "Comprehensive hospitality business analytics dashboard built in Power BI for luxury hotel chains. Tracks RevPAR, ADR, Occupancy %, Realisation %, and cancellation patterns across multiple properties and room classes, unlocking revenue optimization strategies.",
+    image: "/projects/elizium-hotels.png",
+    link: "https://github.com/mrraj1807-max/elezium_hotel_project",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/elezium_hotel_project",
+      },
+      {
+        label: "📥 Power BI Model (.pbix)",
+        url: "https://github.com/mrraj1807-max/elezium_hotel_project/raw/main/Elizium%20Hotels.pbix",
+      },
+      {
+        label: "📊 Metrics & KPI List (.xlsx)",
+        url: "https://github.com/mrraj1807-max/elezium_hotel_project/raw/main/metrics_list.xlsx",
+      },
+      {
+        label: "📖 Case Study & README",
+        url: "https://github.com/mrraj1807-max/elezium_hotel_project#readme",
+      },
+    ],
   },
   {
-    title: "Supply Chain Performance Dashboard",
+    title: "Bank Marketing Campaign Analysis (EDA)",
     description:
-      "Designed a supply chain analytics dashboard tracking inventory levels, delivery performance, and forecast accuracy. Enabled stakeholders to monitor KPIs in real-time with Power BI and SQL integration.",
-    image: "/projects/project-3.png",
-    link: "#",
+      "Exploratory Data Analysis (EDA) on banking telemarketing campaigns to assess customer propensity towards term deposits. Features customer segmentation, contact duration impact, seasonal trends, and predictive conversion insights to boost campaign ROI.",
+    image: "/projects/bank-marketing-eda.png",
+    link: "https://github.com/mrraj1807-max/bank_marketing_eda",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/bank_marketing_eda",
+      },
+      {
+        label: "📄 Marketing Assignment Report (PDF)",
+        url: "https://github.com/mrraj1807-max/bank_marketing_eda/raw/main/Bank%20Marketing%20Assignment%20By%20Upgrad.pdf",
+      },
+      {
+        label: "📥 Excel Analytics Workbook (.xlsx)",
+        url: "https://github.com/mrraj1807-max/bank_marketing_eda/raw/main/Bank%20Marketing%20Assignment%20Excel%20File%20By%20Upgrad%20.xlsx",
+      },
+      {
+        label: "📖 Documentation & Insights",
+        url: "https://github.com/mrraj1807-max/bank_marketing_eda#readme",
+      },
+    ],
+  },
+  {
+    title: "IMDB Movie Rating Analysis (SQL)",
+    description:
+      "In-depth SQL analytical project evaluating decades of IMDB movie datasets. Utilizes complex queries, CTEs, window functions, and multi-table joins to analyze box office performance, genre shifts, multilingual productions, and director success rates.",
+    image: "/projects/imdb-rating-sql.png",
+    link: "https://github.com/mrraj1807-max/imdb_rating_project",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/imdb_rating_project",
+      },
+      {
+        label: "💾 SQL Query Suite (.sql)",
+        url: "https://github.com/mrraj1807-max/imdb_rating_project/raw/main/Imdb%20Project%20unguided%20by%20upgrad%20sql%20file.sql",
+      },
+      {
+        label: "📄 Project Brief & Findings (PDF)",
+        url: "https://github.com/mrraj1807-max/imdb_rating_project/raw/main/Imdb%20Project%20unguided%20by%20upgrad.pdf",
+      },
+      {
+        label: "📖 Documentation & Queries",
+        url: "https://github.com/mrraj1807-max/imdb_rating_project#readme",
+      },
+    ],
+  },
+  {
+    title: "Movie Exploratory Data Analysis (Python)",
+    description:
+      "Python data science workflow conducting end-to-end exploratory analysis on film industry performance. Employs Pandas and NumPy for rigorous data wrangling, with Seaborn and Matplotlib generating statistical distributions and correlation heatmaps.",
+    image: "/projects/movie-assignment-python.png",
+    link: "https://github.com/mrraj1807-max/movie_assiment",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/movie_assiment",
+      },
+      {
+        label: "📓 Jupyter Analysis Notebook (.ipynb)",
+        url: "https://github.com/mrraj1807-max/movie_assiment/blob/main/Movie%20Assignment%20unguided%20project%20by%20upgrad.ipynb",
+      },
+      {
+        label: "📖 README & Workflow",
+        url: "https://github.com/mrraj1807-max/movie_assiment#readme",
+      },
+    ],
+  },
+  {
+    title: "SaaS Business & Financial Analytics",
+    description:
+      "Financial and cohort analytics engine for subscription SaaS models. Tracks MRR, ARR, churn rate, Customer Acquisition Cost (CAC), Customer Lifetime Value (LTV), and multi-tier revenue retention matrices with strategic business optimization.",
+    image: "/projects/saas-project.png",
+    link: "https://github.com/mrraj1807-max/saas_project",
+    documents: [
+      {
+        label: "📂 GitHub Repository",
+        url: "https://github.com/mrraj1807-max/saas_project",
+      },
+      {
+        label: "📥 SaaS Financial Model (.xlsx)",
+        url: "https://github.com/mrraj1807-max/saas_project/raw/main/Saas%20Project%20Excel%20File%20Unguided%20By%20Upgrad.xlsx",
+      },
+      {
+        label: "📄 Executive Report & Strategy (PDF)",
+        url: "https://github.com/mrraj1807-max/saas_project/raw/main/Saas%20Unguided%20Project%20By%20Upgrad.pdf",
+      },
+      {
+        label: "📖 Documentation & Metrics",
+        url: "https://github.com/mrraj1807-max/saas_project#readme",
+      },
+    ],
   },
 ] as const;
 
